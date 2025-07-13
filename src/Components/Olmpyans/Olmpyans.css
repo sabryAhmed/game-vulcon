@@ -1,0 +1,22 @@
+
+.card-map-image img{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    opacity: .5;
+}
+.card-map-image img:hover{
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    cursor: pointer;
+}

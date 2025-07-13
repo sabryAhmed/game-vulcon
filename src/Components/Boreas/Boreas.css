@@ -1,0 +1,20 @@
+
+
+.loo {
+    border-bottom: 5px solid orangered;
+    border-radius: 60px ;
+    -webkit-border-radius: 60px ;
+    -moz-border-radius: 60px ;
+    -ms-border-radius: 60px ;
+    transform: scaleX(1.1);
+    -o-border-radius: 60px ;
+    -webkit-transform: scaleX(1.1);
+    -moz-transform: scaleX(1.1);
+    -ms-transform: scaleX(1.1);
+    -o-transform: scaleX(1.1);
+}
+
+.s img{
+    /* width: 100% !important; */
+    height: 150vh;
+}

@@ -1,0 +1,154 @@
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+.box .card h1{
+    
+    color: #dc3545;
+    text-align: center;
+    text-transform: capitalize;
+    height: 200px;
+}
+.bord{
+    padding: 10px;
+    border-bottom: 2px solid saddlebrown;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.box .card{
+    display: inherit;
+    gap: 50px;
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #fff;
+}
+
+
+
+.prodect .card-prodect .box{
+
+    
+    background: linear-gradient(45deg,#6c757d,red);
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.5s;
+    
+    
+}
+.prodect .card-prodect .box .sall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height:350px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1vb;
+  opacity: 0;
+  overflow: hidden;
+  transition: .5s;
+  transform: scale(1.4);
+}
+.prodect .card-prodect .box .sall .star_1{
+    color: var(--bs-white);
+    display: inherit;
+    
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    width: 120px;
+    border-radius: 20px;  
+}
+
+.prodect .card-prodect .box .sall .star_1 button{
+    border-radius: 10px;
+    outline: none;
+    border: transparent;
+    text-transform: capitalize;
+    padding: 5px;
+    
+    transition: .5s;
+}
+.prodect .card-prodect .box .sall .star_1 button:hover{
+    letter-spacing: 2px;
+    
+}
+.prodect .card-prodect .box .sall .star_1 span{
+    color: #191817;
+}
+.prodect .card-prodect .box .sall .star_1 p{
+    border-radius: 10px;
+    /* width: 100%; */
+
+}
+.prodect .card-prodect .box .sall .star_1 p img{
+    border-radius: 20px;
+    width: 20px;
+    
+
+}
+.prodect .card-prodect .box .sall .star_1 p:nth-child(2){
+    background: linear-gradient(54deg,red,black);
+}
+.prodect .card-prodect .box .sall .star_1 p:nth-child(3){
+    background: linear-gradient(54deg,#ddd,black);
+}
+.prodect .card-prodect .box .sall .star_1 p:nth-child(4){
+    background: linear-gradient(54deg,var(--bs-green),black);
+}
+.prodect .card-prodect .box .sall .star_1 p:nth-child(5){
+    background: linear-gradient(54deg,var(--bs-blue),var(--bs-dark));
+}
+
+.prodect .card-prodect .box .sall .star_1 strong{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.prodect .card-prodect .box .card-img img{
+    overflow: hidden;
+    width: 250px;
+    border-radius: 20px;
+    height: 350px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    
+}
+.prodect .card-prodect .box:hover{ 
+    cursor: pointer;
+    transform: rotateY(180deg);
+    box-shadow: -1px -1px 20px red;
+    
+}
+.prodect .card-prodect .box:hover .card-img img{ 
+    opacity: 0;
+ 
+    
+}
+.prodect .card-prodect .box:hover .sall{
+ 
+
+    opacity: 1;
+ 
+ transform: rotateY(180deg);
+
+
+
+}
+

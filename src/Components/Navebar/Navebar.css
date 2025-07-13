@@ -1,0 +1,28 @@
+
+nav{
+    box-shadow: -1px -1px 30px -5px red;
+}
+
+nav a{
+    color: aliceblue !important;
+    font-size: 1rem ;
+    transition: .5s ;
+    -webkit-transition: .5s ;
+    -moz-transition: .5s ;
+    -ms-transition: .5s ;
+    -o-transition: .5s ;
+    padding: 0 100px;
+}
+nav ul li a:hover{
+    background: linear-gradient(45deg,#dc3545,#fd7e14);
+    color: rgb(0, 0, 0) !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+nav ul{
+    background-color: transparent !important;
+
+}
