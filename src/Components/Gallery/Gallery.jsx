@@ -10,7 +10,7 @@ function Gallery() {
         <div className="row my-5">
 
             <div className="text-center fw-bolde text-light col-lg-12 col-sm-12">
-                <p>eGamers.io - P2E NFT Games Portal > VULCAN FORGED GAMES LIST</p>
+                <p>eGamers.io - P2E NFT Games Portal  VULCAN FORGED GAMES LIST</p>
                 <h1>VULCAN FORGED GAMES LIST</h1>
            
 
@@ -51,7 +51,7 @@ function Gallery() {
             <img src={huslover} alt=""  className='w-100'/>
               
 
-            <p className='my-5'> --> HUSL</p>
+            <p className='my-5'> -- HUSL</p>
             <p>HUSL is a blockchain music company focused on NFT music and gaming. The HUSL, together with Vulcan Forged, will bring HUSLVerse metaverse to the community.</p>
             <p>The HUSLVerse will feature some of the top music, clothing, entertainment, and sports brands in its astonishing world. </p>
 
