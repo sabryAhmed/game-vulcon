@@ -40,7 +40,7 @@ function Gallery() {
             <a href="">Play VulcanVerse</a>
 
 
-            <img src={vulcon_logo} alt=""  className='w-100'/>
+            <img src={vulcon_logo} alt=""  className='w-50'/>
  
             </div>
 
